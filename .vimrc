@@ -16,7 +16,7 @@ set hidden
 
 " Mouse Configuration
 " @See :h mouse
-set mouse=a
+" set mouse=a
 
 " @See: P89
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
@@ -29,6 +29,7 @@ nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 set incsearch
 
 " Allow Plugin
+" @See: P121
 set nocompatible
 filetype plugin on
 runtime macros/matchit.vim
