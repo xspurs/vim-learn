@@ -41,7 +41,8 @@ runtime macros/matchit.vim
 
 " vim-pathogen Configuration
 " @See: https://github.com/tpope/vim-pathogen
-execute pathogen#infect()
+" temporary anotate it
+" execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
